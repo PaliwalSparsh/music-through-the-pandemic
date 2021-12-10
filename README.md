@@ -1,2 +1,0 @@
-# MusicThroughThePandemic
-Created with CodeSandbox
