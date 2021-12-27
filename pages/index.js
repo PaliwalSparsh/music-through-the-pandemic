@@ -1,64 +1,26 @@
+import TitleContainer from "../components/HomePage/TitleContainer";
+import EmotionContainer from "../components/HomePage/EmotionContainer";
+import PandemicContainer from "../components/HomePage/PandemicContainer";
+import SongContainer from "../components/HomePage/SongContainer";
+import VisualizationContainer from "../components/HomePage/VisualizationContainer";
+import ConclusionContainer from "../components/HomePage/ConclusionContainer";
+
 import Image from "next/image";
 
-function Container() {
+function HomePage() {
   return (
-    <div className="grid grid-cols-4 gap-y-96 p-8">
-      <FirstContainer />
-      <SecondContainer />
-      <ThirdContainer />
-      <FourthContainer />
-      <FifthContainer />
-    </div>
+    <main className="flex flex-wrap flex-col bg-slate-900 text-white">
+      <TitleContainer />
+      <EmotionContainer />
+      <PandemicContainer />
+      <SongContainer />
+      <VisualizationContainer />
+      <ConclusionContainer />
+    </main>
   );
 }
 
-function FirstContainer() {
-  return (
-    <div className="col-span-4">
-      <h1 className="text-6xl text-center font-bold text-gray-800">How Pandemic Changed Music?</h1>
-    </div>
-  );
-}
-
-function SecondContainer() {
-  return (
-    <div className="col-span-4">
-      <h1 className="text-6xl text-center font-bold text-gray-800">
-        How to find emotions programmatically?
-      </h1>
-    </div>
-  );
-}
-
-function ThirdContainer() {
-  return (
-    <div className="col-span-4">
-      <h1 className="text-6xl text-center font-bold text-gray-800">
-        Emotion of all songs from 2017 to 2021.
-      </h1>
-    </div>
-  );
-}
-
-function FourthContainer() {
-  return (
-    <div className="col-span-4">
-      <h1 className="text-6xl text-center font-bold text-gray-800">
-        Pre and post-pandemic emotions.
-      </h1>
-    </div>
-  );
-}
-
-function FifthContainer() {
-  return (
-    <div className="col-span-4">
-      <h1 className="text-6xl text-center font-bold text-gray-800">Conclusion</h1>
-    </div>
-  );
-}
-
-export default Container;
+export default HomePage;
 
 {
   /* <div className="hidden max-w-md sm:max-w-full mt-16">
