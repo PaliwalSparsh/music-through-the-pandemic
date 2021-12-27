@@ -9,7 +9,7 @@ import Image from "next/image";
 
 function HomePage() {
   return (
-    <main className="flex flex-wrap flex-col bg-slate-900 text-white">
+    <main className="flex flex-wrap flex-col text-white m-auto max-w-7xl">
       <TitleContainer />
       <EmotionContainer />
       <PandemicContainer />
