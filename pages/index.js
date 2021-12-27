@@ -21,15 +21,3 @@ function HomePage() {
 }
 
 export default HomePage;
-
-{
-  /* <div className="hidden max-w-md sm:max-w-full mt-16">
-  <div className="h-60 w-full sm:object-cover relative rounded-lg shadow-lg">
-    <Image alt="placeholder" layout="fill" src="https://via.placeholder.com/500" />
-  </div>
-  <p className="mt-8">
-    We often associate music with emotions. For example, Uptown Funk is a happy song, Scientist by
-    ColdPlay is a sad song.
-  </p>
-</div>; */
-}
