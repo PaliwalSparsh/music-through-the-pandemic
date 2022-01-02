@@ -1,6 +1,6 @@
 function ConclusionContainer() {
   return (
-    <div className="w-full p-8 flex flex-wrap flex-col">
+    <div className="w-full flex flex-wrap flex-col">
       <h1 className="text-4xl w-full font-serif italic">Conclusion</h1>
       <div className="pb-2 pt-4 w-3/5">
         Songs with elated emotions rose by 2.5 times, stressed and upset emotions decreased by 0.5

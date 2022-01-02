@@ -1,6 +1,6 @@
 function SongContainer() {
   return (
-    <div className="w-full p-8 flex flex-wrap flex-col">
+    <div className="w-full flex flex-wrap flex-col">
       <h1 className="text-4xl w-full font-serif italic">Defining Emotion of a Song?</h1>
       <div className="pb-2 pt-4 w-3/5">
         What is the emotion of the song - Shape of You by Ed Sheeran? Spotify can help us define
