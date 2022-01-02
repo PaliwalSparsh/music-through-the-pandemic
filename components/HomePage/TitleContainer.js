@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function TitleContainer() {
   return (
-    <div className="h-screen w-full p-8 flex flex-wrap flex-row">
+    <div className="w-full p-8 flex flex-wrap flex-row">
       <div className="w-2/3 self-center">
         <Image
           src="/MusicThroughThePandemic.svg"

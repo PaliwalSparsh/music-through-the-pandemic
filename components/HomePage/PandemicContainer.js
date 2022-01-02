@@ -1,6 +1,6 @@
 function PandemicContainer() {
   return (
-    <div className="h-screen w-full p-8 flex flex-wrap flex-row">
+    <div className="w-full p-8 flex flex-wrap flex-row">
       <div className="w-3/5">
         <h1 className="text-4xl font-serif italic">Did Pandemic Change Music?</h1>
         <div className="pb-2 pt-4">
