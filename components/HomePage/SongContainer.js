@@ -14,7 +14,7 @@ function SongContainer() {
         We can get these parameters using the Spotify API.
       </div>
 
-      <div className="w-full flex flex-wrap flex-row justify-center	">
+      <div className="w-full flex flex-wrap flex-row justify-center pl-36">
         <div className="self-center">
           <Image
             src="/shapeOfYouSongCover.png"
@@ -31,7 +31,7 @@ function SongContainer() {
             height={14}
           />
         </div>
-        <div className="self-center relative -left-2">
+        <div className="self-center relative -left-1">
           <Image
             src="/spotifyLogo.png"
             alt="Spotify logo placed on top of arrow"
@@ -70,7 +70,7 @@ function SongContainer() {
         and <span className="text-orange-500 font-bold">2540 songs.</span>
       </div>
 
-      <div className="w-full flex flex-wrap flex-row justify-center	">
+      <div className="w-full flex flex-wrap flex-row justify-center pl-32">
         <div className="self-center">
           <Image src="/circumplexModel.png" alt="Circumplex Model" width={265} height={230} />
         </div>
