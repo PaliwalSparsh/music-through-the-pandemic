@@ -8,8 +8,8 @@ function EmotionContainer() {
         We often<span className="text-orange-500 font-bold"> refer music with the emotion</span> it
         conveys.
       </div>
-      <div className="w-full h-[30rem] flex flex-wrap flex-row">
-        <div className="w-1/3 self-center">
+      <div className="w-full h-[30rem] flex flex-wrap flex-row justify-between">
+        <div className="self-center">
           <SongCoverAndComment
             comment="It makes me really"
             emotion="happy"
@@ -18,7 +18,7 @@ function EmotionContainer() {
             songCoverAltText="Shape Of You Song Cover"
           />
         </div>
-        <div className="w-1/3 self-end relative -right-24">
+        <div className="self-end">
           <SongCoverAndComment
             comment="That song is"
             emotion="sad"
@@ -27,7 +27,7 @@ function EmotionContainer() {
             songCoverAltText="Shape Of You Song Cover"
           />
         </div>
-        <div className="w-1/3 pt-20 relative -right-44">
+        <div className="pt-20">
           <SongCoverAndComment
             comment="That song gets me"
             emotion="excited"
