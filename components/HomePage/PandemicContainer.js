@@ -6,7 +6,7 @@ const COVID_IMAGE_OUTDOORS =
 
 function PandemicContainer() {
   return (
-    <div className="mt-40 w-full flex flex-wrap flex-row">
+    <div className="mt-40 w-full flex flex-wrap flex-row relative">
       <div className="w-3/5">
         <h2 className="text-4xl font-serif italic">Did Pandemic Change Music?</h2>
         <div className="pb-2 pt-4 pr-10">
@@ -38,6 +38,7 @@ function PandemicContainer() {
           className="object-cover object-center rounded-2xl"
         />
       </div>
+      <div className="absolute h-80 w-80 rounded-full bg-orange-500 opacity-40 blur-3xl -top-36 right-20 -z-10"></div>
     </div>
   );
 }
